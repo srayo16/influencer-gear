@@ -62,11 +62,11 @@ ul{
 .first-section{
     margin-top: 145.8px;
     margin-right: 120px;
-    display: flex;
-    width: 100%;
+     display: flex;
+    
+     width: 100%;
     margin-bottom: 160px;
     
- 
     
 }
 
@@ -119,7 +119,7 @@ margin-bottom: 0px;
     position: absolute;
     left: 1035px;
     top: 211px;
-    overflow: hidden;
+    
     
 }
 .main-cam :hover{
@@ -152,7 +152,7 @@ margin-bottom: 0px;
 /* third section start  */
 .third-section{
     margin-bottom: 100px;
-
+    overflow: hidden;
 }
 .heading{
     font-size: 28px;
@@ -166,6 +166,7 @@ margin-bottom: 0px;
     border-radius: 5px;
     width: 329px;
     height: 476px;
+    overflow: hidden;
 }
 .products{
     display: grid;
@@ -179,11 +180,20 @@ margin-bottom: 0px;
     top: 1020px;
     width: 1047px;
     
+    
 
 }
 .thumbnail img{
     margin: 15px;
     margin-bottom: 0;
+    
+    
+}
+.thumbnail img:hover{
+    transform: scale(1.5);
+    
+    transition: transform 1s ease-in-out 0s;
+    
 }
 .product-info, .star , .info {
     padding-left: 15px;
@@ -336,5 +346,30 @@ footer div{
     color: #FFFFFF;
 
 }
+/* footer end  */
+/* mobile device */
 
-/* All end Alhamdulillah */
+    @media only screen and (max-width: 450px ) {
+       
+    
+      .hidden{
+          display: none;
+      }
+      .third-section{
+          width: 100%;
+      }
+      .first-section{
+          width: 100%;
+      }
+
+      .products{
+          grid-template-columns: repeat(1, 1fr);
+
+      }
+      .product{
+          flex-direction: column;
+      }
+    }
+    
+/* mobile device end */
+

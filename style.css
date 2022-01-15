@@ -63,6 +63,7 @@ ul{
     margin-right: 120px;
     display: flex;
     width: 100%;
+    margin-bottom: 160px;
     
  
     
@@ -105,7 +106,7 @@ border-radius: 41px;
 width: 196px;
 height: 44px;
 margin-left: 120px;
-margin-bottom: 160px;
+margin-bottom: 0px;
 
 }
 .fas.fa-arrow-right{
@@ -117,6 +118,27 @@ margin-bottom: 160px;
     position: absolute;
     left: 1035px;
     top: 211px;
- 
     
+}
+
+/*------ first section end--------
+------------------------------- */
+
+
+/*-----second section start----- */
+
+
+.second-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 265px;
+    margin-top: 0 ;
+    margin-right: 265px;
+    margin-bottom: 100px;
+    border: 2px outset rgba(255, 255, 255, 0.247);
+    
+
+    
+
+
 }
